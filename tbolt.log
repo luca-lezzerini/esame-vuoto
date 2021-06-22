@@ -1,0 +1,51 @@
+2021-06-14 11:32:58.978  INFO 1396 --- [main] com.example.esame.EsameApplication       : Starting EsameApplication using Java 15.0.1 on DESKTOP-ETE4PHS with PID 1396 (C:\Users\use\Documents\Documents\NetBeansProjects\esame\target\classes started by use in C:\Users\use\Documents\Documents\NetBeansProjects\esame)
+2021-06-14 11:32:58.981 DEBUG 1396 --- [main] com.example.esame.EsameApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-14 11:32:58.981  INFO 1396 --- [main] com.example.esame.EsameApplication       : No active profile set, falling back to default profiles: default
+2021-06-14 11:33:02.364  WARN 1396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 11:33:02.911  INFO 1396 --- [main] com.example.esame.EsameApplication       : Started EsameApplication in 4.422 seconds (JVM running for 4.836)
+2021-06-14 11:42:53.629  INFO 15576 --- [main] com.example.esame.EsameApplication       : Starting EsameApplication using Java 15.0.1 on DESKTOP-ETE4PHS with PID 15576 (C:\Users\use\Documents\Documents\NetBeansProjects\esame\target\classes started by use in C:\Users\use\Documents\Documents\NetBeansProjects\esame)
+2021-06-14 11:42:53.631 DEBUG 15576 --- [main] com.example.esame.EsameApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-14 11:42:53.632  INFO 15576 --- [main] com.example.esame.EsameApplication       : No active profile set, falling back to default profiles: default
+2021-06-14 11:42:56.668 DEBUG 15576 --- [main] org.hibernate.SQL                        : create table test_entity (id bigint not null, num1 integer, num2 integer, result integer, primary key (id)) engine=InnoDB
+2021-06-14 11:42:56.774  WARN 15576 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 11:42:57.448  INFO 15576 --- [main] com.example.esame.EsameApplication       : Started EsameApplication in 4.29 seconds (JVM running for 4.681)
+2021-06-14 11:44:21.369  INFO 8644 --- [main] com.example.esame.EsameApplication       : Starting EsameApplication using Java 15.0.1 on DESKTOP-ETE4PHS with PID 8644 (C:\Users\use\Documents\Documents\NetBeansProjects\esame\target\classes started by use in C:\Users\use\Documents\Documents\NetBeansProjects\esame)
+2021-06-14 11:44:21.372 DEBUG 8644 --- [main] com.example.esame.EsameApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-14 11:44:21.372  INFO 8644 --- [main] com.example.esame.EsameApplication       : No active profile set, falling back to default profiles: default
+2021-06-14 11:44:24.742  WARN 8644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 11:44:25.175  INFO 8644 --- [main] com.example.esame.EsameApplication       : Started EsameApplication in 4.25 seconds (JVM running for 4.605)
+2021-06-14 11:44:28.799 DEBUG 8644 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-06-14 11:44:28.809 DEBUG 8644 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-06-14 11:44:28.840 DEBUG 8644 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : insert into test_entity (num1, num2, result, id) values (?, ?, ?, ?)
+2021-06-14 11:44:28.843 TRACE 8644 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-06-14 11:44:28.844 TRACE 8644 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
+2021-06-14 11:44:28.845 TRACE 8644 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2021-06-14 11:44:28.846 TRACE 8644 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [4]
+2021-06-14 11:44:31.901 DEBUG 8644 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-06-14 11:44:31.902 DEBUG 8644 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-06-14 11:44:31.907 DEBUG 8644 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : insert into test_entity (num1, num2, result, id) values (?, ?, ?, ?)
+2021-06-14 11:44:31.907 TRACE 8644 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-06-14 11:44:31.908 TRACE 8644 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
+2021-06-14 11:44:31.908 TRACE 8644 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2021-06-14 11:44:31.908 TRACE 8644 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [5]
+2021-06-14 11:44:32.622 DEBUG 8644 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-06-14 11:44:32.623 DEBUG 8644 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-06-14 11:44:32.626 DEBUG 8644 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : insert into test_entity (num1, num2, result, id) values (?, ?, ?, ?)
+2021-06-14 11:44:32.627 TRACE 8644 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-06-14 11:44:32.627 TRACE 8644 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
+2021-06-14 11:44:32.628 TRACE 8644 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2021-06-14 11:44:32.628 TRACE 8644 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [6]
+2021-06-14 11:44:32.991 DEBUG 8644 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-06-14 11:44:32.992 DEBUG 8644 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-06-14 11:44:32.995 DEBUG 8644 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : insert into test_entity (num1, num2, result, id) values (?, ?, ?, ?)
+2021-06-14 11:44:32.996 TRACE 8644 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-06-14 11:44:32.996 TRACE 8644 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
+2021-06-14 11:44:32.997 TRACE 8644 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2021-06-14 11:44:32.997 TRACE 8644 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [7]
+2021-06-14 11:44:33.214 DEBUG 8644 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-06-14 11:44:33.215 DEBUG 8644 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-06-14 11:44:33.219 DEBUG 8644 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : insert into test_entity (num1, num2, result, id) values (?, ?, ?, ?)
+2021-06-14 11:44:33.219 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-06-14 11:44:33.219 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
+2021-06-14 11:44:33.220 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2021-06-14 11:44:33.220 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [8]
