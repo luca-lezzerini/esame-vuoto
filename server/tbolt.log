@@ -49,3 +49,15 @@
 2021-06-14 11:44:33.219 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
 2021-06-14 11:44:33.220 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
 2021-06-14 11:44:33.220 TRACE 8644 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [8]
+2021-06-22 17:36:20.075  INFO 15288 --- [main] com.example.esame.EsameApplication       : Starting EsameApplication using Java 15.0.1 on DESKTOP-ETE4PHS with PID 15288 (C:\Users\use\Documents\NetBeansProjects\esame-vuoto\target\classes started by use in C:\Users\use\Documents\NetBeansProjects\esame-vuoto)
+2021-06-22 17:36:20.079 DEBUG 15288 --- [main] com.example.esame.EsameApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-22 17:36:20.080  INFO 15288 --- [main] com.example.esame.EsameApplication       : No active profile set, falling back to default profiles: default
+2021-06-22 17:36:23.465  WARN 15288 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-22 17:36:23.868  INFO 15288 --- [main] com.example.esame.EsameApplication       : Started EsameApplication in 4.224 seconds (JVM running for 4.556)
+2021-06-22 17:36:49.700 DEBUG 15288 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-06-22 17:36:49.705 DEBUG 15288 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-06-22 17:36:49.730 DEBUG 15288 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : insert into test_entity (num1, num2, result, id) values (?, ?, ?, ?)
+2021-06-22 17:36:49.733 TRACE 15288 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-06-22 17:36:49.733 TRACE 15288 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [3]
+2021-06-22 17:36:49.734 TRACE 15288 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2021-06-22 17:36:49.734 TRACE 15288 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BIGINT] - [9]
